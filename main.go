@@ -1,8 +1,9 @@
-package foo
+package main
 
+import "github.com/krux02/swig-test/foo"
 import "fmt"
 
-func main(args []string) {
+func main() {
 	fmt.Println("Hello World!")
-	fmt.Println(foo.foo(12, 17))
+	fmt.Println(foo.Foo(12, 17))
 }
